@@ -67,7 +67,7 @@ spec:
             - --random-error=false
           env:
           - name: PODINFO_UI_MESSAGE
-            value: "Greetings4"
+            value: "Hello World from PodInfo"
           - name: PODINFO_UI_COLOR
             value: "#34577c"
           ports:
@@ -140,7 +140,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: podinfo-grpc-test-qjm6q
+  name: podinfo-grpc-test-0xoll
   labels:
     helm.sh/chart: podinfo-6.1.6
     app.kubernetes.io/name: podinfo
@@ -164,7 +164,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: podinfo-jwt-test-3g4qz
+  name: podinfo-jwt-test-vkyi7
   labels:
     helm.sh/chart: podinfo-6.1.6
     app.kubernetes.io/name: podinfo
@@ -195,7 +195,7 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: podinfo-service-test-r8z2c
+  name: podinfo-service-test-ei4z2
   labels:
     helm.sh/chart: podinfo-6.1.6
     app.kubernetes.io/name: podinfo
